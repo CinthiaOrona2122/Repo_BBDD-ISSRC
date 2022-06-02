@@ -2,7 +2,7 @@ const connections = {
     sqlite: {
         db: {
             dialect: 'sqlite',
-            storage: 'db.sqlite'
+            storage: './database/db.sqlite'
         }
     }
 }

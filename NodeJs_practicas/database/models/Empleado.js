@@ -1,6 +1,6 @@
 //Imports
 const { Model, DataTypes } = require("sequelize");
-const { sequelize } = require("../sequelize");
+const { sequelize } = require("../database/sequelize");
 
 //Model definition
 class Empleado extends Model {}
