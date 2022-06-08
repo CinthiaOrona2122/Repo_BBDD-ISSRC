@@ -3,11 +3,10 @@ const express = require('express');
 const app = express();
 const sequelize = require('./database/sequelize');
 
-//Models imports
-const Region = require('./database/models/Region');
-const Provincia = require('./database/models/Provincia');
-const Localidad = require('./database/models/Localidad');
-const Empleado = require('./database/models/Empleado');
+
+//importar asociaciones
+require('./database/associations');
+
 
 //creamos aplicacion y conf el puerto
 const port = 3000;
